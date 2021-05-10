@@ -1,10 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-import Counter from './Counter';
+
+import {Counter, EffectFunc} from './components/index';
 
 function App() {
   return (
+    <>
     <Counter />
+    <EffectFunc />
+    </>
   );
 }
 

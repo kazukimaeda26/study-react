@@ -1,6 +1,8 @@
 // 関数コンポーネント内で state を使えるようにするため、useState をインポート 
 import React, { useState } from 'react'
 
+
+
 const Counter = () => {
   // countの初期値として、1~10までのランダムな数値を生成
   const initialState = Math.floor(Math.random() * 10) + 1
